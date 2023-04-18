@@ -1,0 +1,172 @@
+.container {
+  max-width: $website-width;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+// Section title
+
+.section-title {
+  font-size: 30px;
+  margin: 10px 0;
+  text-align: center;
+}
+.sub-title{ 
+    letter-spacing: 2px;
+    font-size: 23px;
+    text-align:center;
+}
+.lead {
+  text-align: center;
+  font-size: 23px;
+  padding: 10px 0;
+}
+.lead-2{
+  text-align: center;
+  font-size: 23px;
+}
+.bottom-line {
+  height: 2px;
+  width: 50px;
+  background: $dark-color;
+  margin: 10px auto 10px auto;
+}
+.text-center {
+  text-align: center;
+}
+
+// span (heading)
+.heading {
+  text-transform: uppercase;
+  color:$secondary-color;
+  background:$medium-color;
+}
+.heading-2  { 
+  color:$third-color; 
+  font-weight:bold; 
+}
+
+// menu color
+.color{ 
+  color:$secondary-color;
+  font-size:20px;
+  font-weight:500;
+}
+
+// padding
+.py {
+  &-1 {
+    padding: 10px 0;
+  }
+  &-2 {
+    padding: 20px 0;
+  }
+  &-3 {
+    padding: 30px 0;
+  }
+  &-4 {
+    padding: 40px 0;
+  }
+  &-5 {
+    padding: 50px 0;
+  }
+}
+
+// margin
+.my {
+  &-1 {
+    padding: 10px 0;
+  }
+  &-2 {
+    padding: 20px 0;
+  }
+  &-3 {
+    padding: 30px 0;
+  }
+  &-4 {
+    padding: 40px 0;
+  }
+  &-5 {
+    padding: 50px 0;
+  }
+}
+
+// background
+
+.bg {
+  &-dark {
+    background: $dark-color;
+    color: #fff;
+  }
+  &-light {
+    background: $light-color;
+    color: $light-color;
+  }
+  &-medium {
+    background: $medium-color;
+    color: $dark-color;
+  }
+  &-primary {
+    background: $primary-color;
+    color: $light-color;
+  }
+  &-secondary {
+    background: $secondary-color;
+    color: $dark-color;
+  }
+}
+
+// button
+%btn-shared {
+  display: inline-block;
+  padding: 13px 30px;
+  margin: 20px 0;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+.btn {
+  &-primary {
+    @extend %btn-shared;
+    background: $primary-color;
+    color: #fff;
+  }
+  &-secondary {
+    @extend %btn-shared;
+    background: $secondary-color;
+    color: #fff;
+  }
+  &-third {
+    @extend %btn-shared;
+    background: $third-color;
+    color: #fff;
+  }
+  &-main {
+    @extend %btn-shared;
+    background: $main-color;
+    color: #fff;
+  }
+  &-dark {
+    @extend %btn-shared;
+    background: $dark-color;
+    color: #fff;
+  }
+  &-light {
+    @extend %btn-shared;
+    background: $light-color;
+    color: $dark-color;
+  }
+  &-medium {
+    @extend %btn-shared;
+    background: $medium-color;
+    color: $dark-color;
+  }
+}
+
+button[class^="btn-"],
+input[class^="btn-"],
+a[class^="btn-"]:hover {
+  background: $secondary-color;
+  color: #fff;
+}
