@@ -194,6 +194,7 @@ a[class^="btn-"]:hover {
         #mobile-nav .nav-items .nav-item-list {
           margin: 10px 0; }
         #mobile-nav .nav-items .nav-item .nav-list-link {
+          padding: 10px 0;
           color: #fff;
           font-size: 20px; }
     #mobile-nav .checkbox:checked ~ .nav-items {
@@ -576,13 +577,12 @@ img {
   .mobile-logo {
     display: inline-block;
     color: black;
-    padding: 15px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 40px;
     font-weight: 700;
-    letter-spacing: .4rem;
-    font-family: "Cinzel", serif; }
-    .mobile-logo .fas {
-      margin-left: 15px; }
+    letter-spacing: 0.4rem;
+    font-family: "Cinzel", serif;
+    box-shadow: 2px 2px 5px black; }
   .header-top {
     font-size: 16px; }
   .header-content h4 {
@@ -641,11 +641,11 @@ img {
 
 @media (max-width: 768px) {
   #header-home #main-nav li {
-    padding: .5rem; }
+    padding: 0.5rem; }
   #header-home #main-nav .logo {
     font-size: 20px; }
   #header-inner #main-nav li {
-    padding: .5rem; }
+    padding: 0.5rem; }
   #header-inner #main-nav .logo {
     font-size: 20px; }
   #about-a .about-info .about-img {
@@ -659,11 +659,11 @@ img {
   #header-home #main-nav .logo {
     font-size: 10px; }
   #header-home #main-nav li {
-    padding: .5rem; }
+    padding: 0.5rem; }
   #header-inner #main-nav .logo {
     font-size: 10px; }
   #header-inner #main-nav li {
-    padding: .5rem; }
+    padding: 0.5rem; }
   #about-a .about-info .about-img {
     padding-top: 30%; }
   #about-a .about-info .fas {
