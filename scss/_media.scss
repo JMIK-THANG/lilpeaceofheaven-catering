@@ -19,7 +19,7 @@
     font-weight: 700;
     letter-spacing: 0.4rem;
     font-family: "Cinzel", serif;
-    box-shadow:2px 2px 5px black;
+    box-shadow: 2px 2px 5px black;
   }
 
   .header-top {
@@ -149,6 +149,15 @@
     height: 8rem;
     .footer-content {
       flex-direction: column;
+    }
+  }
+
+  #contact {
+    &-a {
+      .contact-info {
+        grid-template-columns: 1fr;
+      }
+      
     }
   }
 }
