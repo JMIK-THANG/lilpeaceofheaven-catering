@@ -31,9 +31,8 @@ img {
 @media (min-width: 500px) {
   #mobile-nav {
     display: none;
-
   }
-  
+
   .header-bottom-mobile {
     display: none;
   }
@@ -90,7 +89,7 @@ img {
     // padding-top: 10px;
     color: black;
     font-family: "Cinzel", serif;
-    font-weight:500;
+    font-weight: 500;
     letter-spacing: 2px;
 
     a {
@@ -109,7 +108,7 @@ img {
 
 // Header content
 .header-content {
-  background:url(../img/t9.jpg) no-repeat center center/cover;
+  background: url(../img/t9.jpg) no-repeat center center/cover;
   text-align: center;
   position: relative;
   color: #fff;
@@ -140,10 +139,10 @@ img {
   p {
     font-size: 23px;
   }
- .heading{ 
-   margin-top:40px;
-   padding:5px;
- }
+  .heading {
+    margin-top: 40px;
+    padding: 5px;
+  }
 }
 // cotent top
 .content-top {
@@ -263,6 +262,7 @@ img {
             display: inline-block;
             padding: 4px 13px;
             border: 1px solid #fff;
+            background-color: $medium-color;
             z-index: 10;
 
             &:hover {
@@ -307,11 +307,18 @@ img {
           font-size: 23px;
           text-transform: uppercase;
           font-weight: bold;
+         
         }
         .jungle-btn {
           display: inline-block;
-          border: 1px solid white;
+          border: 1px solid $medium-color;
+          background:$medium-color;
           padding: 8px 13px;
+
+          &:hover{ 
+            background:$dark-color; 
+            color:#fff; 
+          }
         }
         .fas {
           position: absolute;
@@ -423,42 +430,37 @@ img {
 }
 
 // Menu
-#menu { 
-  &-a{ 
-    .jungle-menu{ 
-      display:grid; 
-      grid-template-columns: repeat(3,1fr);
-      text-align:center;
+#menu {
+  &-a {
+    .jungle-menu {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      text-align: center;
     }
-
+  }
 }
-}
-.pasta-life{ 
-  display:flex; 
+.pasta-life {
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:center; 
-  text-align:center;
+  align-items: center;
+  text-align: center;
 }
 
 // Menu down meat/veggies & Seafood
-.menu-down{
-  display:grid; 
-  grid-template-columns: repeat(4,1fr);
-  grid-gap:.5rem; 
-
-  }
-
-  // Menu bottom
-  .menu-bottom {
-    h4{ 
-      line-height: 2;
-      letter-spacing: 1rem;
-
-    }
- 
+.menu-down {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5rem;
 }
 
+// Menu bottom
+.menu-bottom {
+  h4 {
+    line-height: 2;
+    letter-spacing: 1rem;
+  }
+}
 
 // Service a
 
@@ -471,29 +473,102 @@ img {
       grid-gap: 0.5rem;
 
       .service-content {
-        border: 1px solid black;
+        border: 1px solid black;      
+
+        img{ 
+          width:100%; 
+          height:100%; 
+          object-fit:cover; 
+          opacity:0.9; 
+               }
       }
-      h2 {
+      .service-title {
         text-align: center;
         margin: 20px 0;
+        font-weight:500; 
+        display:inline-block;
+        box-shadow: 2px 2px 5px $dark-color;   
+        padding:7px; 
+        font-size:20px; 
+
+        &:hover{ 
+          background:$secondary-color; 
+          color:white; 
+          transition:all .3s ease-in-out;
+        }
+        
+      }
+  
+    }
+
+    .service-logo {
+   height:500px; 
+   width:500px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
       }
     }
-
-    .service-logo { 
-    height:150px; 
-    width:150px; 
-
-    img{ 
-      width:100%; 
-      height:100%; 
-      object-fit: cover;
-    }
+    .logo-title{ 
+      font-size:3rem;
     }
   }
   &-b {
     .row {
       color: #fff;
       border-bottom: 1px solid #fff;
+    }
+  }
+}
+
+// Contact
+#contact{ 
+  &-a { 
+    .contact-info { 
+     display:grid; 
+     grid-template-columns: repeat(2,1fr);
+     grid-gap:.5rem;
+     overflow:hidden; 
+    }
+
+    .col-1{ 
+      img { 
+        width:400px; 
+        height:400px; 
+      }
+    }
+
+    .col-2{ 
+      .fas{ 
+        border:1px solid $medium-color; 
+        padding:6.5px; 
+        background:$medium-color; 
+      }
+      .form-group{ 
+        margin-bottom:20px 
+      }
+      h3{ 
+        margin-bottom:20px; 
+      }
+      .form-control{ 
+         margin-bottom:20px; 
+         display:flex; 
+        
+        
+         
+         input { 
+           padding:4px; 
+           width:100%; 
+         }
+         textarea{ 
+           height:150px; 
+           width:100%; 
+           padding:4px; 
+
+         }
+      }
     }
   }
 }
@@ -525,6 +600,4 @@ img {
   }
 }
 
- 
- 
 @import "media";
