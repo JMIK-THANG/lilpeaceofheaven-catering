@@ -307,17 +307,16 @@ img {
           font-size: 23px;
           text-transform: uppercase;
           font-weight: bold;
-         
         }
         .jungle-btn {
           display: inline-block;
           border: 1px solid $medium-color;
-          background:$medium-color;
+          background: $medium-color;
           padding: 8px 13px;
 
-          &:hover{ 
-            background:$dark-color; 
-            color:#fff; 
+          &:hover {
+            background: $dark-color;
+            color: #fff;
           }
         }
         .fas {
@@ -473,37 +472,35 @@ img {
       grid-gap: 0.5rem;
 
       .service-content {
-        border: 1px solid black;      
+        border: 1px solid black;
 
-        img{ 
-          width:100%; 
-          height:100%; 
-          object-fit:cover; 
-          opacity:0.9; 
-               }
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          opacity: 0.9;
+        }
       }
       .service-title {
         text-align: center;
         margin: 20px 0;
-        font-weight:500; 
-        display:inline-block;
-        box-shadow: 2px 2px 5px $dark-color;   
-        padding:7px; 
-        font-size:20px; 
+        font-weight: 500;
+        display: inline-block;
+        box-shadow: 2px 2px 5px $dark-color;
+        padding: 7px;
+        font-size: 20px;
 
-        &:hover{ 
-          background:$secondary-color; 
-          color:white; 
-          transition:all .3s ease-in-out;
+        &:hover {
+          background: $secondary-color;
+          color: white;
+          transition: all 0.3s ease-in-out;
         }
-        
       }
-  
     }
 
     .service-logo {
-   height:500px; 
-   width:500px;
+      height: 500px;
+      width: 500px;
 
       img {
         width: 100%;
@@ -511,8 +508,8 @@ img {
         object-fit: cover;
       }
     }
-    .logo-title{ 
-      font-size:3rem;
+    .logo-title {
+      font-size: 3rem;
     }
   }
   &-b {
@@ -524,50 +521,48 @@ img {
 }
 
 // Contact
-#contact{ 
-  &-a { 
-    .contact-info { 
-     display:grid; 
-     grid-template-columns: repeat(2,1fr);
-     grid-gap:.5rem;
-     overflow:hidden; 
+#contact {
+  &-a {
+    .contact-info {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 0.5rem;
+      //  overflow:hidden;
     }
 
-    .col-1{ 
-      img { 
-        width:400px; 
-        height:400px; 
+    .col-1 {
+      img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
       }
     }
 
-    .col-2{ 
-      .fas{ 
-        border:1px solid $medium-color; 
-        padding:6.5px; 
-        background:$medium-color; 
+    .col-2 {
+      .fas {
+        border: 1px solid $medium-color;
+        padding: 6.5px;
+        background: $medium-color;
       }
-      .form-group{ 
-        margin-bottom:20px 
+      .form-group {
+        margin-bottom: 20px;
       }
-      h3{ 
-        margin-bottom:20px; 
+      h3 {
+        margin-bottom: 20px;
       }
-      .form-control{ 
-         margin-bottom:20px; 
-         display:flex; 
-        
-        
-         
-         input { 
-           padding:4px; 
-           width:100%; 
-         }
-         textarea{ 
-           height:150px; 
-           width:100%; 
-           padding:4px; 
+      .form-control {
+        margin-bottom: 20px;
+        display: flex;
 
-         }
+        input {
+          padding: 4px;
+          width: 100%;
+        }
+        textarea {
+          height: 150px;
+          width: 100%;
+          padding: 4px;
+        }
       }
     }
   }

@@ -557,7 +557,7 @@ img {
       #service-a .service-info .service-title:hover {
         background: #D73020;
         color: white;
-        transition: all .3s ease-in-out; }
+        transition: all 0.3s ease-in-out; }
   #service-a .service-logo {
     height: 500px;
     width: 500px; }
@@ -574,12 +574,12 @@ img {
 #contact-a .contact-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: .5rem;
-  overflow: hidden; }
+  grid-gap: 0.5rem; }
 
 #contact-a .col-1 img {
-  width: 400px;
-  height: 400px; }
+  width: 300px;
+  height: 300px;
+  object-fit: cover; }
 
 #contact-a .col-2 .fas {
   border: 1px solid #ccc;
@@ -634,8 +634,7 @@ img {
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 0.4rem;
-    font-family: "Cinzel", serif;
-    box-shadow: 2px 2px 5px black; }
+    font-family: "Cinzel", serif; }
   .header-top {
     font-size: 16px; }
   .header-content h4 {
