@@ -88,12 +88,16 @@
   background: #ccc;
   color: #333; }
 
-.bg-primary {
+.bg-first {
   background: #2F1C28;
   color: #fff; }
 
 .bg-secondary {
   background: #D73020;
+  color: #333; }
+
+.bg-third {
+  background: #005D66;
   color: #333; }
 
 .btn-primary, .btn-secondary, .btn-third, .btn-main, .btn-dark, .btn-light, .btn-medium {
@@ -135,7 +139,7 @@
 button[class^="btn-"],
 input[class^="btn-"],
 a[class^="btn-"]:hover {
-  background: #D73020;
+  background: #2F1C28;
   color: #fff; }
 
 @media (max-width: 500px) {
@@ -459,7 +463,7 @@ img {
   #about-a .about-info .fas {
     position: absolute;
     top: 15%;
-    left: 32%;
+    left: 26%;
     -webkit-text-stroke: 1px transparent; }
   #about-a .about-info .about-content {
     padding: 10px;
@@ -480,6 +484,10 @@ img {
     align-items: center;
     text-align: justify; }
     #about-b .catering-info .content-left p {
+      margin-bottom: 20px; }
+    #about-b .catering-info .content-left h4 {
+      margin-bottom: 20px; }
+    #about-b .catering-info .content-left h3 {
       margin-bottom: 20px; }
   #about-b .catering-info .content-right img {
     width: 100%;
@@ -555,7 +563,7 @@ img {
       margin: 20px 0;
       font-weight: 500;
       display: inline-block;
-      box-shadow: 2px 2px 5px 5px #D73020;
+      box-shadow: 2px 2px 5px 2px #D73020;
       background: #2F1C28;
       padding: 7px;
       font-size: 20px; }
@@ -588,7 +596,7 @@ img {
   background: #ccc; }
 
 #contact-a .col-2 .form-group {
-  margin-bottom: 10px; }
+  margin-bottom: 20px; }
 
 #contact-a .col-2 h3 {
   margin-bottom: 20px; }
@@ -609,6 +617,27 @@ img {
     border: none;
     background: #ccc;
     outline: none; }
+
+#contact-b .contact-bottom {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  border-bottom: 1px solid white;
+  padding: 50px 0; }
+  #contact-b .contact-bottom a {
+    text-decoration: underline;
+    color: #fff; }
+  #contact-b .contact-bottom .fas {
+    color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 50%; }
+    #contact-b .contact-bottom .fas:hover {
+      background: #D73020; }
 
 #main-footer {
   height: 7rem; }

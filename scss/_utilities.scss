@@ -107,12 +107,16 @@
     background: $medium-color;
     color: $dark-color;
   }
-  &-primary {
+  &-first {
     background: $primary-color;
     color: $light-color;
   }
   &-secondary {
     background: $secondary-color;
+    color: $dark-color;
+  }
+  &-third {
+    background: $third-color;
     color: $dark-color;
   }
 }
@@ -167,6 +171,6 @@
 button[class^="btn-"],
 input[class^="btn-"],
 a[class^="btn-"]:hover {
-  background: $secondary-color;
+  background: $primary-color;
   color: #fff;
 }
