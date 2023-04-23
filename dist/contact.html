@@ -92,7 +92,8 @@
                          
                   </div>
                   <div class="col-2"> 
-                       <form action="#" class="form-group">
+                       <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                        class="form-group">
 
                         <h3>Contact info</h3>
                         <div class="form-control">
@@ -112,7 +113,8 @@
                               <i class="fas fa-pencil-alt"></i>
                               <textarea type="phone" id="phone" placeholder="Message"></textarea>
                         </div>
-                        <button type="submit" class="btn-secondary">Submit</button>
+                        <button type="submit" value="send" class="btn-secondary">Submit</button>
+                        <div data-netlify-recaptcha="true"></div>
                        </form>
                   </div>
               </div>

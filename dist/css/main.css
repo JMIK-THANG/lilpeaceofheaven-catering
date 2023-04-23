@@ -340,7 +340,7 @@ img {
   .header-bottom .bottom-wrap {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: .3rem; }
+    grid-gap: 0.3rem; }
     .header-bottom .bottom-wrap .bottom {
       height: 100%;
       color: #333;
@@ -556,8 +556,8 @@ img {
     grid-gap: 0.5rem; }
     #service-a .service-info .service-content {
       border: 1px solid black;
-      padding: 10px;
-      background: #2F1C28;
+      padding: 5px;
+      background: #ccc;
       color: #fff; }
       #service-a .service-info .service-content img {
         width: 100%;
@@ -569,7 +569,7 @@ img {
       margin: 20px 0;
       font-weight: 500;
       display: inline-block;
-      box-shadow: 2px 2px 5px 2px #D73020;
+      box-shadow: 1px 1px 5px 1px #D73020;
       background: #2F1C28;
       padding: 7px;
       font-size: 20px; }

@@ -110,7 +110,7 @@ img {
 // Header content
 .header-content {
   // background: url(../img/t9.jpg) no-repeat center center/cover;
-  background:url(../img/jungle1.jpg) no-repeat center center/cover;
+  background: url(../img/jungle1.jpg) no-repeat center center/cover;
   text-align: center;
   position: relative;
   color: #fff;
@@ -175,7 +175,7 @@ img {
   .bottom-wrap {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap:.3rem;
+    grid-gap: 0.3rem;
 
     .bottom {
       height: 100%;
@@ -195,9 +195,9 @@ img {
         margin-bottom: 10px;
         -webkit-text-stroke: 1px #fff;
       }
-      img{ 
-        height:200px; 
-        width:200px; 
+      img {
+        height: 200px;
+        width: 200px;
         object-fit: cover;
       }
     }
@@ -270,7 +270,7 @@ img {
             display: inline-block;
             padding: 4px 13px;
             border: 1px solid #fff;
-            background-color:transparent;
+            background-color: transparent;
             color: #fff;
             z-index: 10;
 
@@ -452,7 +452,6 @@ img {
       text-align: center;
     }
   }
-
 }
 
 .pasta-life {
@@ -472,14 +471,11 @@ img {
 
 // Menu bottom
 .menu-bottom {
-
-  display:flex; 
+  display: flex;
   h4 {
     line-height: 2;
     letter-spacing: 1rem;
   }
-
-
 }
 
 // Service a
@@ -494,8 +490,8 @@ img {
 
       .service-content {
         border: 1px solid black;
-        padding: 10px;
-        background: $primary-color;
+        padding: 5px;
+        background: $medium-color;
         color: #fff;
 
         img {
@@ -510,7 +506,7 @@ img {
         margin: 20px 0;
         font-weight: 500;
         display: inline-block;
-        box-shadow: 2px 2px 5px 2px $secondary-color;
+        box-shadow: 1px 1px 5px 1px $secondary-color;
         background: $primary-color;
         padding: 7px;
         font-size: 20px;
@@ -536,8 +532,8 @@ img {
     .row {
       color: #fff;
       border-bottom: 1px solid #fff;
-      p{
-        margin:20px 0;
+      p {
+        margin: 20px 0;
       }
     }
   }
@@ -592,40 +588,37 @@ img {
       }
     }
   }
-  &-b{ 
-    .contact-bottom { 
-      height:100%; 
-      display:flex; 
+  &-b {
+    .contact-bottom {
+      height: 100%;
+      display: flex;
       justify-content: space-evenly;
       align-items: center;
       text-align: center;
-      gap:1rem; 
-      border-bottom:1px solid white; 
-      padding:50px 0;
+      gap: 1rem;
+      border-bottom: 1px solid white;
+      padding: 50px 0;
 
-      a{ 
+      a {
         text-decoration: underline;
-        color:#fff;
+        color: #fff;
       }
-      a:hover{ 
-        color:$secondary-color;
+      a:hover {
+        color: $secondary-color;
       }
-      .fas{ 
-        color:white; 
-        border:1px solid #ccc;
-        padding:20px; 
-        margin-bottom:10px; 
-        border-radius:50%;
-        
-        &:hover { 
-          background:$secondary-color; 
+      .fas {
+        color: white;
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+
+        &:hover {
+          background: $secondary-color;
         }
-  
-         
       }
     }
   }
- 
 }
 // Footer
 #main-footer {
