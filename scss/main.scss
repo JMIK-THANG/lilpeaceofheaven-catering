@@ -109,12 +109,13 @@ img {
 
 // Header content
 .header-content {
-  background: url(../img/t9.jpg) no-repeat center center/cover;
+  // background: url(../img/t9.jpg) no-repeat center center/cover;
+  background:url(../img/jungle1.jpg) no-repeat center center/cover;
   text-align: center;
   position: relative;
   color: #fff;
   z-index: 10;
-  height: 70%;
+  height: 90%;
 
   .header-content * {
     z-index: 10;
@@ -170,10 +171,11 @@ img {
 
 // Header bottom
 .header-bottom {
-  height: 20%;
+  height: 100%;
   .bottom-wrap {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap:.3rem;
 
     .bottom {
       height: 100%;
@@ -192,6 +194,11 @@ img {
       .fas {
         margin-bottom: 10px;
         -webkit-text-stroke: 1px #fff;
+      }
+      img{ 
+        height:200px; 
+        width:200px; 
+        object-fit: cover;
       }
     }
   }
@@ -263,8 +270,8 @@ img {
             display: inline-block;
             padding: 4px 13px;
             border: 1px solid #fff;
-            background-color: $light-color;
-            color: #333;
+            background-color:transparent;
+            color: #fff;
             z-index: 10;
 
             &:hover {
@@ -312,8 +319,8 @@ img {
         }
         .jungle-btn {
           display: inline-block;
-          border: 1px solid $medium-color;
-          background: $medium-color;
+          border: 1px solid transparent;
+          background: transparent;
           padding: 8px 13px;
 
           &:hover {
@@ -445,7 +452,9 @@ img {
       text-align: center;
     }
   }
+
 }
+
 .pasta-life {
   display: flex;
   flex-direction: column;
@@ -463,10 +472,14 @@ img {
 
 // Menu bottom
 .menu-bottom {
+
+  display:flex; 
   h4 {
     line-height: 2;
     letter-spacing: 1rem;
   }
+
+
 }
 
 // Service a
@@ -523,6 +536,9 @@ img {
     .row {
       color: #fff;
       border-bottom: 1px solid #fff;
+      p{
+        margin:20px 0;
+      }
     }
   }
 }
@@ -590,6 +606,9 @@ img {
       a{ 
         text-decoration: underline;
         color:#fff;
+      }
+      a:hover{ 
+        color:$secondary-color;
       }
       .fas{ 
         color:white; 

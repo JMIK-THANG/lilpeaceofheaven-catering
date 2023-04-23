@@ -43,7 +43,6 @@
 
 .color {
   color: #D73020;
-  font-size: 20px;
   font-weight: 500; }
 
 .py-1 {
@@ -291,12 +290,12 @@ img {
       padding: 0.5rem; }
 
 .header-content {
-  background: url(../img/t9.jpg) no-repeat center center/cover;
+  background: url(../img/jungle1.jpg) no-repeat center center/cover;
   text-align: center;
   position: relative;
   color: #fff;
   z-index: 10;
-  height: 70%; }
+  height: 90%; }
   .header-content .header-content * {
     z-index: 10; }
   .header-content h1 {
@@ -337,10 +336,11 @@ img {
   z-index: 10; }
 
 .header-bottom {
-  height: 20%; }
+  height: 100%; }
   .header-bottom .bottom-wrap {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); }
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .3rem; }
     .header-bottom .bottom-wrap .bottom {
       height: 100%;
       color: #333;
@@ -354,6 +354,10 @@ img {
       .header-bottom .bottom-wrap .bottom .fas {
         margin-bottom: 10px;
         -webkit-text-stroke: 1px #fff; }
+      .header-bottom .bottom-wrap .bottom img {
+        height: 200px;
+        width: 200px;
+        object-fit: cover; }
 
 #home-a {
   height: 100%;
@@ -407,8 +411,8 @@ img {
           display: inline-block;
           padding: 4px 13px;
           border: 1px solid #fff;
-          background-color: #fff;
-          color: #333;
+          background-color: transparent;
+          color: #fff;
           z-index: 10; }
           #home-b .card-wrap .card-heading-btn:hover {
             background: #fff;
@@ -441,8 +445,8 @@ img {
       font-weight: bold; }
     #home-c .jungle-wrap .jungle-food .jungle-btn {
       display: inline-block;
-      border: 1px solid #ccc;
-      background: #ccc;
+      border: 1px solid transparent;
+      background: transparent;
       padding: 8px 13px; }
       #home-c .jungle-wrap .jungle-food .jungle-btn:hover {
         background: #333;
@@ -538,9 +542,11 @@ img {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 0.5rem; }
 
-.menu-bottom h4 {
-  line-height: 2;
-  letter-spacing: 1rem; }
+.menu-bottom {
+  display: flex; }
+  .menu-bottom h4 {
+    line-height: 2;
+    letter-spacing: 1rem; }
 
 #service {
   height: 100%; }
@@ -580,6 +586,8 @@ img {
   #service-b .row {
     color: #fff;
     border-bottom: 1px solid #fff; }
+    #service-b .row p {
+      margin: 20px 0; }
 
 #contact-a .contact-info {
   display: grid;
@@ -630,6 +638,8 @@ img {
   #contact-b .contact-bottom a {
     text-decoration: underline;
     color: #fff; }
+  #contact-b .contact-bottom a:hover {
+    color: #D73020; }
   #contact-b .contact-bottom .fas {
     color: white;
     border: 1px solid #ccc;
