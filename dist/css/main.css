@@ -699,6 +699,8 @@ img {
       margin-top: 0; }
     #home-a .flex-items h4 {
       font-size: 16px; }
+  #home-a .header-bottom .bottom-wrap {
+    grid-template-columns: 1fr; }
   #home-b .card-wrap {
     display: flex;
     flex-direction: column; }
@@ -737,7 +739,9 @@ img {
     #main-footer .footer-content {
       flex-direction: column; }
   #contact-a .contact-info {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  #contact-b .contact-bottom {
+    flex-direction: column; } }
 
 @media (max-width: 768px) {
   #header-home #main-nav li {
