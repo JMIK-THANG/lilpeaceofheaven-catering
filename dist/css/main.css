@@ -295,7 +295,7 @@ img {
   position: relative;
   color: #fff;
   z-index: 10;
-  height: 90%; }
+  height: 80%; }
   .header-content .header-content * {
     z-index: 10; }
   .header-content h1 {
@@ -309,7 +309,7 @@ img {
     margin-bottom: 20px;
     letter-spacing: 2px; }
   .header-content h3 {
-    margin-bottom: 20px;
+    margin: 20px;
     letter-spacing: 2px; }
   .header-content p {
     font-size: 23px; }
@@ -588,6 +588,8 @@ img {
     border-bottom: 1px solid #fff; }
     #service-b .row p {
       margin: 20px 0; }
+    #service-b .row a {
+      text-decoration: underline; }
 
 #contact-a .contact-info {
   display: grid;
@@ -686,7 +688,11 @@ img {
   .header-content h4 {
     display: none; }
   .header-content h2 {
-    font-size: 20px; }
+    font-size: 18px; }
+  .header-content h3 {
+    font-size: 10px; }
+  .header-content .heading {
+    display: none; }
   .header-bottom-mobile .bottom-wrap {
     text-align: center; }
     .header-bottom-mobile .bottom-wrap .fas {
