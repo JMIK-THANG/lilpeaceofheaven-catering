@@ -1,7 +1,6 @@
 @import "config";
 @import "utilities";
 @import "mobile";
-@import "media";
 * {
   margin: 0;
   padding: 0;
@@ -636,3 +635,5 @@ img {
     }
   }
 }
+
+@import "media";

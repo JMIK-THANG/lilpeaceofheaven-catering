@@ -28,18 +28,19 @@
   // Header Content
   .header-content {
     h4 {
-      display: none;
+      display:none;
     }
     h2 {
-      font-size: 18px;
+      font-size: 23px;
     }
-     
-    h3{ 
-      font-size:10px; 
+
+    h3 {
+      font-size: 10px;
+      // margin:0;
     }
-  
-    .heading{ 
-      display:none;
+
+    .heading {
+      display: none;
     }
   }
 
@@ -69,13 +70,11 @@
           font-size: 16px;
         }
       }
-      .header-bottom{ 
-        .bottom-wrap{
+      .header-bottom {
+        .bottom-wrap {
           grid-template-columns: 1fr;
         }
-    }
-    
-      
+      }
     }
     &-b {
       .card-wrap {
@@ -91,12 +90,11 @@
       }
     }
     &-c {
-      .jungle-wrap {
+      .love-punch {
         grid-template-columns: 1fr;
+        
       }
     }
-
-   
   }
 
   // About section
@@ -142,6 +140,12 @@
     &-a {
       .jungle-menu {
         grid-template-columns: 1fr;
+        text-align:center;
+
+      }
+
+      .jungle-menu-3 { 
+        margin:0;
       }
     }
     &-b {
@@ -152,6 +156,15 @@
   }
   .menu-down {
     grid-template-columns: 1fr;
+  }
+
+  .carousel-item { 
+    height: 200px;
+
+    img{ 
+      height:200px;
+    }
+  
   }
   // service a
   #service {
@@ -178,11 +191,10 @@
     }
     &-b {
       .contact-bottom {
-       flex-direction: column;
+        flex-direction: column;
       }
     }
   }
- 
 }
 
 @media (max-width: 768px) {
