@@ -473,8 +473,8 @@ img {
       .service-content {
         border: 1px solid black;
         padding: 5px;
-        background: $medium-color;
-        color: #fff;
+        // background: $dark-color;
+        color: #333;
 
         img {
           width: 100%;
@@ -488,7 +488,7 @@ img {
         margin: 20px 0;
         font-weight: 500;
         display: inline-block;
-        box-shadow: 1px 1px 5px $secondary-color;
+        box-shadow: 1px 1px 5px $dark-color;
         // background: $primary-color;
         padding: 7px;
         font-size: 20px;
