@@ -13,17 +13,17 @@
 
     <header id="header-inner">
 
-          <nav id="main-nav">
+          <nav id="main-nav" class="navbar">
             <div class="container">
             
                   <a  class="current" href="index.html"><h2 class="logo"><i class="fas fa-dove"></i> Lil Peace of heaven</h2></a>  
 
                 <ul>
-                      <li><a href="index.html" >Home</a></li>
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="menu.html"  class="current">Menu</a></li>
-                      <li><a href="service.html" >Services</a></li>
-                      <li><a href="contact.html" >Contact</a></li>
+                      <li class="nav-item"><a class="nav-link" href="index.html" >Home</a></li>
+                      <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                      <li class="nav-item"><a class="nav-link" href="menu.html"  class="current">Menu</a></li>
+                      <li class="nav-item"><a class="nav-link" href="service.html" >Services</a></li>
+                      <li class="nav-item"><a class="nav-link" href="contact.html" >Contact</a></li>
                   
                 </ul>
           </nav>
@@ -78,15 +78,14 @@
 
     <!-- Menu a -->
     <section id="menu-a" class="py-2">
+           <!-- Jungle menu top -->
+           <div class="jungle-menu-top py-2 bg-medium">
+            <h2 class="section-title">jungle life</h2>          
+            <h4 class="lead">Quality catering services LLC</h4> 
+           <h4 class="lead">Menu List</h4>
+           <div class="bottom-line"></div>
+          </div>
           <div class="container">
-
-            <!-- Jungle menu top -->
-                <div class="jungle-menu-top py-2">
-                  <h2 class="section-title">jungle life</h2>          
-                  <h4 class="lead">Quality catering services LLC</h4> 
-                 <h4 class="lead">Menu List</h4>
-                 <div class="bottom-line"></div>
-                </div>
 
                 <!-- Jungle menu -->
                 <div class="jungle-menu">
@@ -119,7 +118,7 @@
                             </ul>
                       </div>
                       <!-- Pasta Life-->
-                      <section class="jungle-menu-2 bg-medium py-3">
+                      <section class="jungle-menu-2 py-3">
                         <div class="container">
                               <div class="pasta-life">
                                     <div>
@@ -177,9 +176,82 @@
           <hr style="margin-top:20px;">
     </section>
 
-    <!-- Menu a mobile-->
+    <!-- menu showcase slide -->
+    <section id="showcase">
+      <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to ="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to ="1"></li>
+                  <li data-target="#myCarousel" data-slide-to ="2"></li>
+                  <li data-target="#myCarousel" data-slide-to ="3"></li>
+                  <li data-target="#myCarousel" data-slide-to ="4"></li>
+            </ol>
+            <div class="carousel-inner py-3">
+                  <div class="carousel-item carousel-image-1 active">
+                        <div class="container">
+                              <div class="carousel-caption d-none d-sm-block text-left mb-5">
+                                   <h4>Jungle table</h4>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="carousel-item carousel-image-2">
+                        <div class="container">
+                              <div class="carousel-caption d-none d-sm-block mb-5">
+                                    <h4>Jungle table</h4>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="carousel-item carousel-image-3">
+                        <div class="container">
+                              <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                                    <h4>Jungle table</h4>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="carousel-item carousel-image-4">
+                        <div class="container">
+                              <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                                    <h4>Jungle table</h4>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="carousel-item carousel-image-5">
+                        <div class="container">
+                              <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                                    <h4>Jungle table</h4>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+                  <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+                  <span class="carousel-control-next-icon"></span>
+            </a>
+            <a href="#myCarousel" data-slide="next" class="carousel-control-prev">
+                  <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+                  <span class="carousel-control-next-icon"></span>
+            </a>
+            <a href="#myCarousel" data-slide="next" class="carousel-control-prev">
+                  <span class="carousel-control-prev-icon"></span>
+            </a>
+      </div>
+</div>
+</section>
+
+
+<hr>
+    <!-- Menu a-->
     <div class="menu-down">
+          
     <div id="accordion">
+          <div class="container">
           <div class="card text-center bg-third text-white">
                 <div class="card-header">
                       <div href="#collapse1" data-toggle="collapse" data-parent="#accordion">
@@ -207,9 +279,10 @@
             </div>
           </div>
     </div>
-
+</div>
     <!-- Collapse 2 -->
     <div id="accordion">
+          <div class="container">
           <div class="card text-center bg-third text-white">
                 <div class="card-header">
                       <div href="#collapse2" data-toggle="collapse" data-parent="#accordion">
@@ -236,11 +309,10 @@
                 </div>
           </div>
     </div>
-
-
-    <!-- menu b -->
+</div>
           <!-- main 2 -->
           <div id="accordion">
+                <div class="container">
                 <div class="card text-center bg-third text-white">
                       <div class="card-header">
                             <div href="#collapse3" data-toggle="collapse" data-parent="#accordion">
@@ -264,11 +336,12 @@
                       </div>
                   </div>
             </div>
-                
+      </div>
           </div>
 
           <!-- collapse 4 -->
           <div id="accordion">
+                <div class="container">
                 <div class="card text-center bg-third text-white">  
                       <div class="card-header">
                             <div href="#collapse4" data-toggle="collapse" data-parent="#accordion"> 
@@ -299,32 +372,20 @@
                        
                 </div>
           </div>
-
+      </div>
       </div>
       
+ <section id="menu-b" class="py-2 text-center bg-medium">
+       <div class="container">
+             <p class="lead">Would like to make something different?
+            </p>
+            <h4>Here I am to make it happent what you tought!!</h4>
 
+            <a href="contact.html" class="btn-secondary"><h3>Custom Order Available <i class="fas fa-arrow-right"></i></h3></a>
+       </div>
+       <hr>
+ </section>
       
-                      
-                      
-      <!-- menu bottom -->
-      <section id="menu-bottom" class="py-2">
-            <div class="menu-bottom">
-                  <div class="container">
-                       
-                              
-                                    <div>
-                                          <img src="./img/jungle10.jpg" alt="">
-                                          <h4 class="lead">Add <br><span class="heading">Jungle Table</span> <br> for additional price</h4>
-                                    </div>
-                        
-                      
-                        
-                  </div>
-            </div>
-            </div>
-      </div>
-      </section>
-    <hr>
             
 
     <!-- footer -->
