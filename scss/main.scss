@@ -105,12 +105,12 @@ img {
   }
 }
 
-// Bootstrap nav control 
-.navbar{ 
-  .nav-link{ 
-    text-decoration:none; 
+// Bootstrap nav control
+.navbar {
+  .nav-link {
+    text-decoration: none;
   }
-  }
+}
 
 // Header content
 .header-content {
@@ -135,6 +135,7 @@ img {
     letter-spacing: 2px;
   }
   h3 {
+    font-size:23px; 
     margin: 40px;
     letter-spacing: 2px;
   }
@@ -146,7 +147,6 @@ img {
 .content-top {
   letter-spacing: 2rem;
   line-height: 2rem;
- 
 }
 
 // Overlay
@@ -178,7 +178,7 @@ img {
       height: 100%;
       color: $dark-color;
       text-align: center;
-      border-bottom:1px solid black;
+      border-bottom: 1px solid black;
       box-shadow: 2px 2px 2px $medium-color;
 
       &:hover {
@@ -208,14 +208,14 @@ img {
     .flex-items {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-gap:.5rem; 
+      grid-gap: 0.5rem;
     }
     .item-1 {
       img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        opacity:0.9;
+        opacity: 0.9;
       }
     }
     .item-2 {
@@ -223,7 +223,6 @@ img {
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
-
     }
   }
   //   Home b
@@ -278,12 +277,12 @@ img {
       h4 {
         padding: 20px 0;
 
-        letter-spacing: .3rem;
-        line-height:.5rem;
-      }    
-      h2{ 
+        letter-spacing: 0.3rem;
+        line-height: 0.5rem;
+      }
+      h2 {
         letter-spacing: 2rem;
-        line-height:2rme;
+        line-height: 2rme;
       }
     }
   }
@@ -406,13 +405,9 @@ img {
     .jungle-menu {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-gap:1rem;
-      text-align:justify;
-        }
-
-        .jungle-menu-3 { 
-          margin-left:200px;
-        }
+      grid-gap: 1rem;
+      text-align: justify;
+    }
   }
 }
 
@@ -422,49 +417,69 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  border:1px solid #ccc;
+  border: 1px solid #ccc;
 }
 
 // Menu down meat/veggies & Seafood
 .menu-down {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  
 }
 
 // Menu showcase
 
-.carousel-item { 
+.carousel-item {
   height: 500px;
-
 }
-.carousel-image-1{ 
-  background:url(../img/jungle7.jpg) no-repeat center center/cover; 
+.carousel-image-1 {
+  background: url(../img/jungle7.jpg) no-repeat center center/cover;
   background-size: cover;
 }
-.carousel-image-2{ 
-  background:url(../img/jungle10.jpg) no-repeat center center/cover; 
+.carousel-image-2 {
+  background: url(../img/jungle10.jpg) no-repeat center center/cover;
 
   object-fit: cover;
 }
-.carousel-image-3{ 
-  background:url(../img/jungle2.jpg) no-repeat center center/cover; 
+.carousel-image-3 {
+  background: url(../img/jungle2.jpg) no-repeat center center/cover;
   background-size: cover;
 }
-.carousel-image-4{ 
-  background:url(../img/jungle11.jpg) no-repeat center center/cover; 
+.carousel-image-4 {
+  background: url(../img/jungle11.jpg) no-repeat center center/cover;
   background-size: cover;
 }
-.carousel-image-5{ 
-  background:url(../img/jungle14.jpg) no-repeat center center/cover; 
+.carousel-image-5 {
+  background: url(../img/jungle14.jpg) no-repeat center center/cover;
   background-size: cover;
 }
+
+// Service top Content
+.service-top {
+  border: 1px solid $medium-color;
+  // height:500px; 
+  // width:500px; 
+  margin:auto; 
+  padding:50px;
+  background-color:$secondary-color; 
+  color:#fff;
+  text-align:center;
+
+}
+.star{ 
+  letter-spacing: 3rem;
+  line-height:2rem;
+  text-align: center;
+}
+
+
 
 // Service a
 
 #service {
   height: 100%;
   &-a {
+    
+
     .service-info {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -516,12 +531,10 @@ img {
       border-bottom: 1px solid #fff;
       p {
         margin: 20px 0;
-        
       }
 
-      a { 
-       
-       text-decoration: underline;
+      a {
+        text-decoration: underline;
       }
     }
   }

@@ -169,6 +169,10 @@
   // service a
   #service {
     &-a {
+
+      .service-top-content {
+        margin:auto;
+      }
       .service-info {
         grid-template-columns: 1fr;
       }
