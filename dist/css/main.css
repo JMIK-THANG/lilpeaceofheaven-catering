@@ -496,6 +496,12 @@ img {
   grid-gap: 1rem;
   text-align: justify; }
 
+#menu-b .card-header {
+  text-align: center; }
+
+#menu-b .card a {
+  text-decoration: none; }
+
 .pasta-life {
   display: flex;
   flex-direction: column;
@@ -503,10 +509,6 @@ img {
   align-items: center;
   text-align: center;
   border: 1px solid #ccc; }
-
-.menu-down {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); }
 
 .carousel-item {
   height: 500px; }

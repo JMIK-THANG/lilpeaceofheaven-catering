@@ -408,7 +408,22 @@ img {
       text-align: justify;
     }
   }
+
+  &-b{
+    .card{ 
+
+      &-header{ 
+        text-align:center;
+      }
+      a{ 
+        text-decoration: none;
+      }
+      
+    }
+  }
+
 }
+
 
 .pasta-life {
   display: flex;
@@ -419,11 +434,6 @@ img {
   border: 1px solid #ccc;
 }
 
-// Menu down meat/veggies & Seafood
-.menu-down {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
 
 // Menu showcase
 
