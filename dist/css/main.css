@@ -499,8 +499,14 @@ img {
 #menu-b .card-header {
   text-align: center; }
 
+#menu-b .card-body {
+  text-align: center; }
+
 #menu-b .card a {
   text-decoration: none; }
+
+#menu-b .card ul {
+  list-style: #ccc; }
 
 .pasta-life {
   display: flex;
@@ -685,8 +691,8 @@ img {
     display: none; }
   .header-content h2 {
     font-size: 23px; }
-  .header-content h3 {
-    font-size: 10px; }
+  .header-content .special {
+    display: none; }
   .header-content .heading {
     display: none; }
   .header-bottom-mobile .bottom-wrap {

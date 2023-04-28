@@ -409,28 +409,24 @@ img {
     }
   }
 
-  &-b{
-    .card{ 
-
-      &-header{ 
-        text-align:center;
+  &-b {
+    .card {
+      &-header {
+        text-align: center;
       }
-      &-body{ 
-        text-align:center;
+      &-body {
+        text-align: center;
       }
-      a{ 
+      a {
         text-decoration: none;
       }
 
-      ul{
-        list-style: #ccc;;
+      ul {
+        list-style: #ccc;
       }
-      
     }
   }
-
 }
-
 
 .pasta-life {
   display: flex;
@@ -440,7 +436,6 @@ img {
   text-align: center;
   border: 1px solid #ccc;
 }
-
 
 // Menu showcase
 
