@@ -718,12 +718,17 @@ img {
     display: none; }
   #home-c .love-punch {
     grid-template-columns: 1fr; }
+  #about-a .about-header {
+    height: 200px;
+    background: url(../img/t13.jpg);
+    background-position: -90px -50px;
+    object-fit: cover; }
   #about-a .about-info {
     grid-template-columns: 1fr; }
   #about-a .about-img {
-    padding-top: 40%; }
+    display: none; }
   #about-a .fas {
-    margin-left: 60px; }
+    display: none; }
   #about-b .catering-info {
     grid-template-columns: 1fr; }
     #about-b .catering-info h3 {
